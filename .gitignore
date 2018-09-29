@@ -1,0 +1,10 @@
+# Unity .gitignore file.
+.DS_Store
+
+*/Debug/
+Debug/
+Output/
+Resource/
+ipch/
+
+HSL.sln
