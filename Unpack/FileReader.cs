@@ -8,15 +8,12 @@ namespace Unpack
         private static Encoding encodeBig5 = Encoding.GetEncoding("BIG5");
         private static Encoding encodeAscII = Encoding.ASCII;
 
-        private FileStream fs;
         private BinaryReader br;
         private long pos;
 
         public FileReader(FileStream fs)
         {
-            this.fs = fs;
             br = new BinaryReader(fs);
-            
             pos = 0;
         }
 
@@ -56,15 +53,22 @@ namespace Unpack
             return bytes[0] | bytes[1] << 8 | bytes[2] << 16 | bytes[3] << 24;
         }
 
-        public long ReadInt64Complement()
+        public int ReadInt32()
         {
-            long value = ReadInt64();
-            return - value;
+            byte[] bytes = ReadBytes(2);
+
+            return bytes[0] | bytes[1] << 8;
         }
 
         public int ReadInt8()
         {
             return ReadByte();
+        }
+
+        public long ReadInt64Complement()
+        {
+            long value = ReadInt64();
+            return - value;
         }
 
         public char ReadChar()
@@ -97,7 +101,7 @@ namespace Unpack
 
         public void Seek(long offset)
         {
-            fs.Seek(offset, SeekOrigin.Current);
+            br.BaseStream.Seek(offset, SeekOrigin.Current);
             pos += offset;
         }
 

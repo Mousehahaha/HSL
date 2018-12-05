@@ -147,7 +147,7 @@ namespace Unpack
                 }
                 finally
                 {
-                    Console.WriteLine(fr.GetPos() + " " + tlhsCnt + " " + worlCnt);
+                    Console.WriteLine(fr.GetPos() + " TLHS: " + tlhsCnt + " WORL: " + worlCnt);
                 }
 
             }

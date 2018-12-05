@@ -10,16 +10,23 @@ namespace Unpack
     {
         static void Main(string[] args)
         {
-            //Unpacker unpacker = new Unpacker(@"E:\Dirties\HSL\Resource\", @"E:\Dirties\HSL\Output\");
+            Unpacker unpacker = new Unpacker(@"E:\Dirties\HSL\Resource\", @"E:\Dirties\HSL\Output\");
             //unpacker.DoUnpack();
             //unpacker.SeperateMoviePak();
-            //unpacker.Test();
+            //unpacker.Shp2Bmp();
             //unpacker.BuildPNG(null);
             //unpacker.Seperate();
             //unpacker.ReadDefine();
+            //unpacker.ReadUI();
+            //unpacker.ReadMapDetail();
+            //unpacker.ReadObject();
+            //unpacker.ReadLanguage();
+            unpacker.ReadConfig();
 
             //new Counter().DoCount();
-            new Counter().DoCount2(@"E:\Dirties\HSL\Resource\hsl.pak");
+            //new Counter().DoCount2(@"E:\Dirties\HSL\Resource\hsl.pak");
+
+            //Exporter.ExportWAV();
         }
     }
 }

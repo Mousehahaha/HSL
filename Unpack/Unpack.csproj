@@ -43,10 +43,12 @@
   <ItemGroup>
     <Compile Include="Color.cs" />
     <Compile Include="Counter.cs" />
+    <Compile Include="CSVFileUtil.cs" />
     <Compile Include="Exporter.cs" />
     <Compile Include="FileReader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Object.cs" />
     <Compile Include="Unpacker.cs" />
     <Compile Include="Utility.cs" />
   </ItemGroup>

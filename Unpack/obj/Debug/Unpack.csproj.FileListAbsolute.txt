@@ -1,0 +1,12 @@
+E:\Dirties\HSL\Unpack\bin\Debug\Unpack.exe.config
+E:\Dirties\HSL\Unpack\bin\Debug\Unpack.exe
+E:\Dirties\HSL\Unpack\bin\Debug\Unpack.pdb
+E:\Dirties\HSL\Unpack\obj\Debug\Unpack.csprojResolveAssemblyReference.cache
+E:\Dirties\HSL\Unpack\obj\Debug\Unpack.exe
+E:\Dirties\HSL\Unpack\obj\Debug\Unpack.pdb
+E:\Dirties\HSL\Tools\Unpack\bin\Debug\Unpack.exe.config
+E:\Dirties\HSL\Tools\Unpack\obj\Debug\Unpack.exe
+E:\Dirties\HSL\Tools\Unpack\obj\Debug\Unpack.pdb
+E:\Dirties\HSL\Tools\Unpack\bin\Debug\Unpack.exe
+E:\Dirties\HSL\Tools\Unpack\bin\Debug\Unpack.pdb
+E:\Dirties\HSL\Tools\Unpack\obj\Debug\Unpack.csprojResolveAssemblyReference.cache
